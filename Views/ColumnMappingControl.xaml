@@ -23,11 +23,8 @@
                                 <ColumnDefinition Width="15" />
                                 <ColumnDefinition />
                             </Grid.ColumnDefinitions>
-                            
-                            <Label Grid.Column="0" Content="{Binding ChosenSourceColumn}" />
-                            
-                            <!--<ComboBox Grid.Column="0" ItemsSource="{Binding SourceColumns}"
-                                      SelectedItem="{Binding ChosenSourceColumn}" />-->
+
+                            <Label Grid.Column="0" Content="{Binding SourceColumn}" />
                             
                             <ComboBox Grid.Column="2" ItemsSource="{Binding TargetColumns}"
                                       SelectedItem="{Binding ChosenTargetColumn}" />
